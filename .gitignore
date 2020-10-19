@@ -1,0 +1,15 @@
+# go related
+*.test
+*.out
+*.so
+
+# macOS
+# find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+**/.DS_Store
+
+# microsoft temporary files
+**/~*
+
+# directories
+_dev/
+testdata/
